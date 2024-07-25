@@ -3,7 +3,7 @@ FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
 
 # Set the Gitea Version to install.
 # Check https://dl.gitea.io/gitea/ for available versions.
-ARG GITEA_VERSION="1.13.2"
+ARG GITEA_VERSION="1.14.1"
 ARG APP_HOME=/home/gitea
 ARG REPO_HOME=/gitea-repositories
 
